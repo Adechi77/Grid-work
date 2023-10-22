@@ -1,0 +1,32 @@
+.grandfather{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 350px;
+    height: 70vh;
+}
+#father{
+    color: white;
+    background-color: lightslategray;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: gray;
+    text-align: justify;
+}
+#son{
+    color: white;
+    background-color: rgb(220, 160, 169);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    z-index: 9;
+    margin: -220px;
+    height: 350px;
+    border-radius: 15px;
+    opacity: 80%;
+    border-style:outset;
+    border-color: pink;
+    text-align: justify;
+    border: 40%;
+}

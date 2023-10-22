@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    height: 30vh;
+    gap: 15px;
+    color: white;
+}
+#one{
+background-color:  rgb(47, 144, 176);
+border-radius: 15px;
+grid-column: 1/-1;
+}
+#two{
+background-color:  rgb(47, 144, 176);
+border-radius: 15px;
+grid-column: 1/2;
+}
+
+#three{
+background-color: rgb(47, 144, 176);
+border-radius: 15px;
+grid-column: 2/-1;
+}
+#four{
+background-color:  rgb(47, 144, 176);
+border-radius: 15px;
+grid-column: 2/-1;
+}
