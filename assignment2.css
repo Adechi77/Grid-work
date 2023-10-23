@@ -27,6 +27,7 @@
     opacity: 80%;
     border-style:outset;
     border-color: pink;
+    border-width: 4px;
     text-align: justify;
     border: 40%;
 }

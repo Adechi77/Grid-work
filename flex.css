@@ -1,0 +1,39 @@
+.column-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+.wrapper {
+    min-height: 100vh;
+    border: 1px solid black;
+}
+#aside-container {
+    flex: 4;
+    border: 1px solid red;
+}
+#main-container {
+    flex: 8;
+    border: 1px solid blue;
+}
+nav {
+    height: 90px;
+}
+footer{
+    border: 2px solid green;
+    min-height: 20vh;
+}
+main{
+min-height: 80vh;
+    height: auto;
+}
+footer{
+    height: 100px;
+}
+aside{
+    height: 100vh;
+}
